@@ -1,0 +1,79 @@
+
+*{border:solid;
+  background-color : blanchedalmond;
+}
+h1{
+  background-color: black;
+  color: blueviolet;
+  font-size: 6em;
+  margin-bottom: .3em;
+  text-align: center;
+  text-decoration: underline; 
+}
+.header{
+  margin:.3em;
+  text-align: center;
+  font-size: 2em; 
+ }
+ 
+ .rea{
+  margin:.3em;
+  text-align: center;
+  font-size : 2em; 
+  
+}
+ 
+ .MENU{
+  border:solid;
+  margin:.3em;
+  text-align: center;
+  font-size: 2em; 
+ }
+ 
+  .pro{
+  border:solid;
+   text-align: center;
+   font-size: 2em; 
+ }
+
+  
+
+.lo p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+ transform: translate (-50%,-50%);
+ opacity: 0;
+}
+.lo:hover img{
+  opacity: 0;
+}
+
+.lo:hover p {
+  opacity:1;
+}
+.lo:hover img{
+  opacity:0.33;
+}
+
+
+.eku:hover img{
+  opacity: 0;
+}
+
+
+.eku:hover img{
+  opacity:0.33;
+}
+a:link{
+  color:green;
+}
+a:visited{
+  color:red;
+}
+a:active{
+  color:yellow;
+}
+a:hover{
+  color:black;
+}
